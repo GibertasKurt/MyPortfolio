@@ -68,12 +68,18 @@ a:hover {
     transition: all .3s;
 }
 .card-content {
-    width: 100%;
+    width: 99%;
     height: 100%;
     background-color: #1a1a1a;
     border-radius:;
     transition: all .2s;
     padding: 3px 7px 3px 7px;
+}
+.card-content h1 {
+    font-size: 2em;
+    color: #00c8e7;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .card-content:hover {
     transform: scale(0.98);
@@ -93,7 +99,74 @@ a:hover {
 .column h2 {
     text-align: center;
 }
-
+#Header4 .img-container {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #0094ac;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    flex-wrap: nowrap; /* Changed from wrap to nowrap */
+}
+#Header4 .img-container img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+}
+#Header3 .card-content p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+#Header3 .card-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+#Header3 .card-content ul li {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+#Header1 .column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #0d0d0d, -3px -3px 10px #353535;
+    transition: transform 0.3s;
+}
+#Header1 .column:hover {
+    transform: scale(1.05);
+}
+#Header1 .column h2 {
+    text-align: center;
+    color: #00c8e7;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px #000000;
+}
+#Header1 .column ul {
+    list-style-type: none;
+    padding: 0;
+}
+#Header1 .column ul li {
+    font-size: 1.1em;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+#Header1 .column ul li::before {
+    content: '•';
+    color: #00c8e7;
+    position: absolute;
+    left: 0;
+    font-size: 1.5em;
+}
 /*
     Never to be touched again
 */
