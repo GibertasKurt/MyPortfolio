@@ -23,8 +23,8 @@ main {
 p,a {
     font-family: Verdana, sans-serif;
 }
-h1 {
-    font-family: Garamond, serif;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
 }
 a:hover {
     color: #ffffff;
@@ -54,67 +54,41 @@ a:hover {
 }
 .fa {
     padding: 5px;
-    border: 1px solid #0094ac;
+    border: 1px solid #00c8e7;
     border-radius: 50%;
 }
 /*
     Body
 */
-
-.Header1 div, .Header2 div, .Header3 div, .Header4 div,.Header5 div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+.card {
+    width: 80%;
+    height: 80%;
+    background-image: linear-gradient(163deg, #00c8e7 0%, #01ffea 100%);
+    border-radius: 20px;
+    transition: all .3s;
 }
-
-.Header1 div h1,.Header2 div h1,.Header3 div h1,.Header4 div h1,.Header5 div h1 {
-    background-color: #444;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    flex: 1;
-    margin: 10px 0;
+.card-content {
     width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    border-radius:;
+    transition: all .2s;
+    padding: 3px 7px 3px 7px;
+}
+.card-content:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
 }
 .container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
-
-.Header1 .content, .Header2 .content, .Header3 .content, .Header4 .content, .Header5 .content {
-    display: none;
-    width: 100%;
-    background-color: #444;
-    padding: 10px 20px;
-    border-radius: 5px;
-    overflow: hidden;
-    transition: max-height 0.5s ease-out;
-    max-height: 0;
-}
-
-/*
-    Body - Header4
-*/
-.Header4.show .content {
-    display: block;
-    max-height: 500px;
-}
-.Header4 div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.Header4 div.show .content {
-    display: block;
-}
-.Header1.show .content, .Header2.show .content, .Header3.show .content, .Header4.show .content, .Header5.show .content {
-    display: block;
-    max-height: 100%;
+.column {
+    flex: 1;
+    padding: 20px;
 }
 
 /*
