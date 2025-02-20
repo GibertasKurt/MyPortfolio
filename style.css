@@ -90,6 +90,9 @@ a:hover {
     flex: 1;
     padding: 20px;
 }
+.column h2 {
+    text-align: center;
+}
 
 /*
     Never to be touched again
