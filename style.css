@@ -17,7 +17,7 @@ main {
     max-width: 1200px;
     margin: auto;
     padding: 25px;
-    /* border: groove 5px #68C8FF; */
+    /* border: groove 5px #0094ac; */
     margin-left: 260px;
 }
 
@@ -28,7 +28,7 @@ main {
     font-family: Garamond, serif;
 }
 /*
-    About me, top left of screen, sticks, is a functioning button, and has a dropdown menu
+    Header
 */
 .aboutme {
     position: fixed;
@@ -40,7 +40,7 @@ main {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     padding: 18px;
     z-index: 1000;
-    border: groove 5px #68C8FF;
+    border: groove 5px #0094ac;
     text-align: center;
 }
 .aboutme img {
@@ -49,9 +49,9 @@ main {
     display: block;
     margin: 0 auto; 
 }
-.aboutme a {
+.fa {
     padding: 5px;
-    border: 1px solid #68C8FF;
+    border: 1px solid #0094ac;
     border-radius: 50%;
 }
 /*
@@ -59,7 +59,7 @@ main {
 */
 .nav-menu button {
     padding: 5px;
-    border: solid 5px #68C8FF;
+    border: solid 5px #0094ac;
     border-radius: 50%;
 }
 .nav-menu ul {
@@ -79,48 +79,22 @@ main {
 /*
     Header
 */
-header div img {
-    max-width: 25%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-header div h2 {
-    text-align: right;
-    display: inline-block;
-    font-family: Garamond, serif;
-}
-main div h1,h2,h3,h4,h5,h6 {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-main div p {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-}
 a:hover {
     color: #ffffff;
-    background-color: #68C8FF;
+    background-color: #0094ac;
 }
 /*
     Body
 */
-.Header1 div,.Header2 div,.Header3 div,.Header4 div  {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-}
 
-.Header1 div, .Header2 div, .Header3 div, .Header4 div {
+.Header1 div, .Header2 div, .Header3 div, .Header4 div,.Header5 div {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.Header1 div h1,.Header2 div h1,.Header3 div h1,.Header4 div h1 {
+.Header1 div h1,.Header2 div h1,.Header3 div h1,.Header4 div h1,.Header5 div h1 {
     background-color: #444;
     color: white;
     padding: 10px 20px;
@@ -138,7 +112,7 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.Header1 .content, .Header2 .content, .Header3 .content, .Header4 .content {
+.Header1 .content, .Header2 .content, .Header3 .content, .Header4 .content, .Header5 .content {
     display: none;
     width: 100%;
     background-color: #444;
@@ -164,7 +138,7 @@ a:hover {
 .Header4 div.show .content {
     display: block;
 }
-.Header1.show .content, .Header2.show .content, .Header3.show .content, .Header4.show .content {
+.Header1.show .content, .Header2.show .content, .Header3.show .content, .Header4.show .content, .Header5.show .content {
     display: block;
     max-height: 500px;
 }
@@ -204,7 +178,7 @@ footer {
     background-color: #1e1e1e;
     color: #e0e0e0;
     padding: 1px 5px;
-    border: groove 5px #68C8FF;
+    border: groove 5px #0094ac;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     z-index: 1000;

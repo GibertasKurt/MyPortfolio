@@ -12,7 +12,7 @@ document.addEventListener('click', (event) => {
     }
 });
 
-const sections = document.querySelectorAll('.Header1, .Header2, .Header3, .Header4, .Contact');
+const sections = document.querySelectorAll('.Header1, .Header2, .Header3, .Header4, .Header5');
 
 sections.forEach(section => {
     const header = section.querySelector('h1');
