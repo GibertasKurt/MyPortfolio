@@ -110,7 +110,7 @@ a:hover {
     border-radius: 10px;
     background-color: #1e1e1e;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-    flex-wrap: nowrap; /* Changed from wrap to nowrap */
+    flex-wrap: nowrap;
 }
 #Header4 .img-container img {
     max-width: 30%;
@@ -139,6 +139,7 @@ a:hover {
     border-radius: 10px;
     box-shadow: 3px 3px 10px #0d0d0d, -3px -3px 10px #353535;
     transition: transform 0.3s;
+    border: 3px solid #0094ac;
 }
 #Header1 .column:hover {
     transform: scale(1.05);
@@ -166,6 +167,32 @@ a:hover {
     position: absolute;
     left: 0;
     font-size: 1.5em;
+}
+#menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+#menu-list li {
+    margin-bottom: 10px;
+}
+#menu-list li a {
+    display: block;
+    padding: 10px 15px;
+    color: #e0e0e0;
+    text-decoration: none;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 10px #0d0d0d, -3px -3px 10px #353535;
+    border: 3px solid #0094ac;
+}
+#menu-list li a:hover {
+    background-color: #0094ac;
+    color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #0094ac;
 }
 /*
     Never to be touched again
