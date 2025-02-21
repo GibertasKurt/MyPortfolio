@@ -19,7 +19,25 @@ main {
     padding: 25px;
     /* border: groove 5px #0094ac; */
 }
-
+main section {
+    margin-bottom: 20px;
+}
+/*
+    Navigation for CSS!
+    Press "Ctrl + F" and type in the header you want to go to!
+    OR
+    Press "Ctrl + G" and type in the line number you want to go to!
+    Line 49: Side Window, About Me, Navigation Window
+    Line 76: Body
+    Line 125: Header 1 Skills
+    Line 162: Header 3 Projects
+    Line 174: Header 4 Certifications
+    Line 194: Header 5 Contact
+    Line 229: #menu-list 
+    Line 256: Social Media Link CSS
+    Line 270: Footer
+    Line 295: @media
+*/
 p,a {
     font-family: Verdana, sans-serif;
 }
@@ -31,11 +49,11 @@ a:hover {
     background-color: #0094ac;
 }
 /*
-    Header
+    Side Window, About Me, Navigation Window.
 */
 .aboutme {
     position: fixed;
-    top: 10%;
+    top: 8%;
     left: 20px;
     width: 200px;
     background-color: #1e1e1e;
@@ -50,7 +68,8 @@ a:hover {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto; 
+    margin: 0;
+    padding: 0;
 }
 .fa {
     padding: 5px;
@@ -71,7 +90,7 @@ a:hover {
     width: 99%;
     height: 100%;
     background-color: #1a1a1a;
-    border-radius:;
+    border-radius: 20px;
     transition: all .2s;
     padding: 3px 7px 3px 7px;
     background: linear-gradient(145deg, #1e1e1e, #2a2a2a);
@@ -275,4 +294,8 @@ footer {
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     z-index: 1000;
+}
+
+@media (max-width: 768px) {
+
 }
