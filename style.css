@@ -14,33 +14,14 @@ body {
     background-attachment: fixed;
 }
 main {
-    /* background-color: #1e1e1e; */
     border-radius: 5px;
-    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); */
     max-width: 75%;
     margin: auto auto auto 260px;
     padding: 25px;
-    /* border: groove 5px #0094ac; */
 }
 main section {
     margin-bottom: 15px;
 }
-/*
-    Navigation for CSS!
-    Press "Ctrl + F" and type in the header you want to go to!
-    OR
-    Press "Ctrl + G" and type in the line number you want to go to!
-    Line 52: Side Window, About Me, Navigation Window
-    Line 80: Body
-    Line 129: Header 1 Skills
-    Line 166: Header 3 Projects
-    Line 178: Header 4 Certifications
-    Line 194: Header 5 Contact
-    Line 233: #menu-list 
-    Line 260: Social Media Link CSS
-    Line 286: Footer
-    Line 300: @media
-*/
 p,a {
     font-family: Verdana, sans-serif;
 }
@@ -52,7 +33,23 @@ a:hover {
     background-color: #0094ac;
 }
 /*
-    Side Window, About Me, Navigation Window.
+    Navigation for CSS!
+    Press "Ctrl + F" and type in the header you want to go to!
+    OR
+    Press "Ctrl + G" and type in the line number you want to go to!
+    Line 52: Left Side Window, About Me, Navigation Window
+    Line 80: Body
+    Line 129: Header 1 Skills
+    Line 166: Header 3 Projects
+    Line 178: Header 4 Certifications
+    Line 194: Header 5 Contact
+    Line 233: #menu-list 
+    Line 260: Social Media Link CSS
+    Line 286: Footer
+    Line 300: @media
+*/
+/*
+    Left Side Window, About Me, Navigation Window.
 */
 .aboutme {
     position: fixed;
@@ -82,7 +79,7 @@ a:hover {
 /*
     Body
 */
-/* 100 vh */
+/* 100 viewheight */
 /* section.card {
     height: 100vh;
     display: flex;
@@ -108,6 +105,12 @@ a:hover {
 }
 .card-content a {
     color: #00c8e7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.card-content a:hover {
+    color: #ffffff;
+    background-color: #0094ac;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -220,7 +223,7 @@ a:hover {
     color: #ffffff;
 }
 #Header5 .content .email, #Header5 .content .submit {
-    padding: 10px;
+    padding: 10px; /* IM NOT USING BOTH OF THESE RIGHT NOW*/
     margin: 10px 0;
     border: 2px solid #0094ac;
     border-radius: 5px;
