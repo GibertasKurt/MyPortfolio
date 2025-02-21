@@ -171,25 +171,24 @@ a:hover {
     font-size: 1em;
     margin-bottom: 10px;
 } /* Header 3 */
-#Header4 .img-container { /* Header 4 */
-    max-width: 50%;
+.img-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 20px auto;
-    padding: 10px;
+}
+.img-column {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
     border: 2px solid #0094ac;
     border-radius: 10px;
     background-color: #1e1e1e;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-    flex-wrap: nowrap;
 }
-#Header4 .img-container img {
-    max-width: 50%;
+.img-column img {
+    max-width: 100%;
     height: auto;
-    display: block;
-    margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 } /* Header 4 */
 #Header5 .content { /* Header 5 */
     text-align: center;
