@@ -290,6 +290,10 @@ a:hover {
     background: linear-gradient(to right, #09ace7, #1176f1);
     color: #c5c3c0;
 }
+.fa-github {
+    background: #ffffff;
+    color: #000000;
+}
 footer { /* Footer */
     text-align: center;
     position: fixed;
