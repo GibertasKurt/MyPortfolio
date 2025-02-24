@@ -40,23 +40,20 @@ a:hover {
     color: #ffffff;
     background-color: #0094ac;
 }
-/*
-    Navigation for CSS!
-    Press "Ctrl + F" and type in the header you want to go to!
-    OR
+/*  Navigation for CSS!
+    Press "Ctrl + F" and type in the header you want to go to! OR
     Press "Ctrl + G" and type in the line number you want to go to!
-    Line 53: Left Side Window, About Me, Navigation Window
-    Line 75: Body
-    Line 130: Header 1 Skills
-    Line 168: Header 2 Experiences
-    Line 172: Header 3 Projects
-    Line 184: Header 4 Certifications
-    Line 206: Header 5 Contact
-    Line 241: #menu-list 
-    Line 268: Social Media Links CSS
+    Line 58: Left Side Window, About Me
+    Line 88: #menu-list, Navigation Window
+    Line 114: Body
+    Line 167: Header 1 Skills
+    Line 204: Header 2 Experiences
+    Line 208: Header 3 Projects
+    Line 221: Header 4 Certifications
+    Line 244: Header 5 Contact
+    Line 264: Social Media Links CSS
     Line 306: Footer
-    Line 320: @media
-*/
+    Line 320: @media */
 /* Left Side Window, About Me, Navigation Window. */
 .aboutme {
     position: fixed;
@@ -86,6 +83,32 @@ a:hover {
 .aboutme p a:hover {
     background-color: #0094ac;
     color: #ffffff;
+}
+#menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+#menu-list li {
+    margin-bottom: 10px;
+}
+#menu-list li a {
+    display: block;
+    padding: 10px 15px;
+    color: #e0e0e0;
+    text-decoration: none;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 10px #0d0d0d, -3px -3px 10px #353535;
+    border: 3px solid #0094ac;
+}
+#menu-list li a:hover {
+    background-color: #0094ac;
+    color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #0094ac;
 }
 /* Body */
 /* 100 viewheight */
@@ -237,32 +260,6 @@ a:hover {
 #Header5 .content ul li a:hover {
     color: #ffffff;
 } /* Header 5 */
-#menu-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-}
-#menu-list li {
-    margin-bottom: 10px;
-}
-#menu-list li a {
-    display: block;
-    padding: 10px 15px;
-    color: #e0e0e0;
-    text-decoration: none;
-    background-color: #1e1e1e;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-    box-shadow: 3px 3px 10px #0d0d0d, -3px -3px 10px #353535;
-    border: 3px solid #0094ac;
-}
-#menu-list li a:hover {
-    background-color: #0094ac;
-    color: #ffffff;
-    transform: scale(1.05);
-    box-shadow: 0 0 15px #0094ac;
-}
 /* Social Media Link CSS */
 .fa {
     text-decoration: none;
