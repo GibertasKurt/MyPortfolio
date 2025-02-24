@@ -185,7 +185,7 @@ a:hover {
 } /* Header 1 */
 #Header2 .card-content div p { /* Header 2 */
     margin: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 } /* Header 2 */
 #Header3 .card-content p { /* Header 3 */
     font-size: 1.2em;
@@ -193,8 +193,8 @@ a:hover {
 }
 #Header3 .card-content ul {
     list-style-type: disc;
-    padding-left: 20px;
-    padding-bottom: 5px;
+    margin: 5px;
+    padding-bottom: 10px;
 }
 #Header3 .card-content ul li {
     font-size: 1em;
