@@ -1,8 +1,17 @@
+* {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+/* Awesome Fade In Effect uwu */
 html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: Arial, sans-serif;
     background-color: #121212;
     color: #e0e0e0;
     margin: 0;
@@ -22,7 +31,7 @@ main {
 main section {
     margin-bottom: 15px;
 }
-p,a {
+p,a,li {
     font-family: Verdana, sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -278,7 +287,8 @@ a:hover {
     Social Media Link CSS
 */
 .fa {
-    padding: 5px;
+    text-decoration: none;
+    padding: 10px;
     border: 1px solid #ffffff;
     border-radius: 50%;
     margin: 1px;
