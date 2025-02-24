@@ -219,7 +219,7 @@ a:hover {
 } /* Header 3 */
 #Header4 .img-container { /* Header 4 */
     display: flex;
-    justify-content: space-between;
+    justify-content: inline-grid;
     margin-bottom: 10px;
 }
 #Header4 .img-column {
