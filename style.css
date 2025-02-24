@@ -6,8 +6,7 @@
     to {
         opacity: 1;
     }
-}
-/* Awesome Fade In Effect uwu */
+} /* Awesome Fade In Effect uwu */
 html {
     scroll-behavior: smooth;
 }
@@ -58,9 +57,7 @@ a:hover {
     Line 306: Footer
     Line 320: @media
 */
-/*
-    Left Side Window, About Me, Navigation Window.
-*/
+/* Left Side Window, About Me, Navigation Window. */
 .aboutme {
     position: fixed;
     /* top: 8%; */
@@ -90,9 +87,7 @@ a:hover {
     background-color: #0094ac;
     color: #ffffff;
 }
-/*
-    Body
-*/
+/* Body */
 /* 100 viewheight */
 /* section.card {
     height: 100vh;
@@ -115,9 +110,8 @@ a:hover {
     transition: all .2s;
     padding: 3px 7px 3px 7px;
     background: linear-gradient(145deg, #1e1e1e, #2a2a2a);
-    /* box-shadow: 5px 5px 15px #0d0d0d, -5px -5px 15px #353535; */
 }
-.card-content a {
+.card-content a:not(.fa) {
     color: #00c8e7;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -215,6 +209,7 @@ a:hover {
     border: 2px solid #0094ac;
     border-radius: 10px;
     background-color: #1e1e1e;
+    margin: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 #Header4 .img-column img {
@@ -224,38 +219,23 @@ a:hover {
 } /* Header 4 */
 #Header5 .content { /* Header 5 */
     text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
-#Header5 .content p {
+#Header5 .content div p {
     font-size: 1.2em;
     color: #e0e0e0;
-    margin-bottom: 20px;
+    padding-bottom: 25px;
 }
 #Header5 .content ul {
     list-style-type: none;
-    padding: 0;
 }
 #Header5 .content ul li {
     font-size: 1.1em;
     color: #00c8e7;
-    margin-bottom: 10px;
 }
 #Header5 .content ul li a:hover {
     color: #ffffff;
-}
-#Header5 .content .email, #Header5 .content .submit {
-    padding: 10px; /* IM NOT USING BOTH OF THESE RIGHT NOW*/
-    margin: 10px 0;
-    border: 2px solid #0094ac;
-    border-radius: 5px;
-    background-color: #1e1e1e;
-    color: #e0e0e0;
-    font-size: 1em;
-    transition: all 0.3s ease;
-}
-#Header5 .content .email:focus, #Header5 .content .submit:hover {
-    background-color: #0094ac;
-    color: #ffffff;
-    border-color: #00c8e7;
 } /* Header 5 */
 #menu-list {
     list-style-type: none;
@@ -283,9 +263,7 @@ a:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px #0094ac;
 }
-/*
-    Social Media Link CSS
-*/
+/* Social Media Link CSS */
 .fa {
     text-decoration: none;
     padding: 10px;
@@ -294,6 +272,10 @@ a:hover {
     margin: 1px;
     width: 15px;
     height: 15px;
+}
+.fa:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 30px #ffffff;
 }
 .fa-facebook {
     background: #3B5998;
