@@ -227,7 +227,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     border: 2px solid #0094ac;
     border-radius: 10px;
@@ -239,7 +239,11 @@ a:hover {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-} /* Header 4 */
+} 
+#Header4 .img-column h3{
+    margin: 5px 10px 10px 10px;
+    padding: 0;
+}  /* Header 4 */
 #Header5 .content { /* Header 5 */
     text-align: center;
     margin: 10px;
@@ -345,6 +349,8 @@ footer { /* Footer */
         margin: 10px;
     }
     #Header4 .img-container {
+        flex-direction: column;
+        align-items: center;
         max-width: 100%;
         margin: 0 10px 10px 10px;
     }
@@ -409,6 +415,4 @@ footer { /* Footer */
         position: static;
         margin: 20px;
     }
-}
-@media (max-width: 480px) {
 }
