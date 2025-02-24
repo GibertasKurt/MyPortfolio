@@ -37,16 +37,17 @@ a:hover {
     Press "Ctrl + F" and type in the header you want to go to!
     OR
     Press "Ctrl + G" and type in the line number you want to go to!
-    Line 52: Left Side Window, About Me, Navigation Window
-    Line 80: Body
-    Line 129: Header 1 Skills
-    Line 166: Header 3 Projects
-    Line 178: Header 4 Certifications
-    Line 194: Header 5 Contact
-    Line 233: #menu-list 
-    Line 260: Social Media Link CSS
-    Line 286: Footer
-    Line 300: @media
+    Line 53: Left Side Window, About Me, Navigation Window
+    Line 75: Body
+    Line 130: Header 1 Skills
+    Line 168: Header 2 Experiences
+    Line 172: Header 3 Projects
+    Line 184: Header 4 Certifications
+    Line 206: Header 5 Contact
+    Line 241: #menu-list 
+    Line 268: Social Media Links CSS
+    Line 306: Footer
+    Line 320: @media
 */
 /*
     Left Side Window, About Me, Navigation Window.
@@ -71,10 +72,14 @@ a:hover {
     margin: 0;
     padding: 0;
 }
-.fa {
-    padding: 5px;
-    border: 1px solid #00c8e7;
-    border-radius: 50%;
+.aboutme p a {
+    color: #00c8e7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.aboutme p a:hover {
+    background-color: #0094ac;
+    color: #ffffff;
 }
 /*
     Body
@@ -169,6 +174,10 @@ a:hover {
     left: 0;
     font-size: 1.5em;
 } /* Header 1 */
+#Header2 .card-content div p { /* Header 2 */
+    margin: 15px;
+    padding-bottom: 25px;
+} /* Header 2 */
 #Header3 .card-content p { /* Header 3 */
     font-size: 1.2em;
     margin-bottom: 15px;
@@ -176,6 +185,7 @@ a:hover {
 #Header3 .card-content ul {
     list-style-type: disc;
     padding-left: 20px;
+    padding-bottom: 5px;
 }
 #Header3 .card-content ul li {
     font-size: 1em;
@@ -184,6 +194,7 @@ a:hover {
 #Header4 .img-container { /* Header 4 */
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 #Header4 .img-column {
     flex: 1;
@@ -266,29 +277,37 @@ a:hover {
 /*
     Social Media Link CSS
 */
+.fa {
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin: 1px;
+    width: 15px;
+    height: 15px;
+}
 .fa-facebook {
     background: #3B5998;
-    color: white;
+    color: #ffffff;
 }
 .fa-twitter {
     background: #55ACEE;
-    color: white;
+    color: #ffffff;
 }
 .fa-google {
     background: #dd4b39;
-    color: white;
+    color: #ffffff;
 }
 .fa-tumblr {
     background: #2c4762;
-    color: white;
+    color: #ffffff;
 }
 .fa-reddit {
     background: #ff5700;
-    color: white;
+    color: #ffffff;
 }
 .fa-steam {
     background: linear-gradient(to right, #09ace7, #1176f1);
-    color: #c5c3c0;
+    color: #ffffff;
 }
 .fa-github {
     background: #ffffff;
