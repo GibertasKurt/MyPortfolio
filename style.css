@@ -14,7 +14,6 @@ body {
     background-color: #121212;
     color: #e0e0e0;
     margin: 0;
-    padding: 10px 0 10px 10px;
     background-image: url('bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -371,6 +370,33 @@ footer {
     }
     #menu-list li a {
         padding: 10px 15px;
+    }
+    .socialmedia-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .socialmedia-container a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 5px;
+        color: #e0e0e0;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .socialmedia-container a:hover {
+        background-color: #0094ac;
+        transform: scale(1.05);
+    }
+    .socialmedia-container a span {
+        margin-left: 10px;
+    }
+    .socialmedia-container a .fa {
+        margin: 0;
     }
     footer {
         position: static;
